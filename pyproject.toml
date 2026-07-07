@@ -1,0 +1,15 @@
+[project]
+name = "triceradrive-api"
+version = "0.2.0"
+description = "MEGA Multi-Account File Manager — DB-less, ultra-fast"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.139.0",
+    "uvicorn[standard]>=0.50.2",
+    "cryptography>=44.0",
+    "python-multipart>=0.0.20",
+    "pydantic-settings>=2.14.2",
+    "async-mega-py>=2.4.1",
+    "python-jose[cryptography]>=3.5.0",
+]
