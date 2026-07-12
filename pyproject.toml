@@ -12,4 +12,5 @@ dependencies = [
     "pydantic-settings>=2.14.2",
     "async-mega-py>=2.4.1",
     "python-jose[cryptography]>=3.5.0",
+    "aiosqlite>=0.22.1",
 ]
